@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t-heat">
+  <title id="t-heat">Placeholder illustration: central heating radiator</title>
+  <defs>
+    <linearGradient id="bg-heat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F5F2"/>
+      <stop offset="1" stop-color="#E4ECF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-heat)"/>
+  <g stroke="#C8D4E0" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M40 100 H760"/>
+    <path d="M40 460 H760"/>
+  </g>
+  <g transform="translate(160 160)">
+    <rect width="380" height="200" rx="8" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="3"/>
+    <g stroke="#0A0A0A" stroke-width="2">
+      <line x1="40" y1="20" x2="40" y2="180"/>
+      <line x1="80" y1="20" x2="80" y2="180"/>
+      <line x1="120" y1="20" x2="120" y2="180"/>
+      <line x1="160" y1="20" x2="160" y2="180"/>
+      <line x1="200" y1="20" x2="200" y2="180"/>
+      <line x1="240" y1="20" x2="240" y2="180"/>
+      <line x1="280" y1="20" x2="280" y2="180"/>
+      <line x1="320" y1="20" x2="320" y2="180"/>
+      <line x1="340" y1="20" x2="340" y2="180"/>
+    </g>
+    <rect x="0" y="200" width="60" height="40" fill="#0A0A0A"/>
+    <rect x="320" y="200" width="60" height="40" fill="#0A0A0A"/>
+    <circle cx="-12" cy="50" r="14" fill="#0B6FB8"/>
+    <rect x="-26" y="46" width="14" height="8" fill="#0A0A0A"/>
+  </g>
+  <g transform="translate(610 200)" fill="none" stroke="#0B6FB8" stroke-width="4" stroke-linecap="round">
+    <path d="M0 60 Q-10 40 0 20 Q10 0 0 -20"/>
+    <path d="M30 60 Q20 40 30 20 Q40 0 30 -20"/>
+    <path d="M60 60 Q50 40 60 20 Q70 0 60 -20"/>
+  </g>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5C5C5C" letter-spacing="3">PLACEHOLDER · CENTRAL HEATING</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t-team">
+  <title id="t-team">Placeholder illustration: O'Sullivan Plumbing team</title>
+  <defs>
+    <linearGradient id="bg-team" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F5F2"/>
+      <stop offset="1" stop-color="#E4ECF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-team)"/>
+  <g stroke="#C8D4E0" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M40 100 H320 a20 20 0 0 1 20 20 V200"/>
+    <path d="M760 100 H520 a20 20 0 0 0 -20 20 V220"/>
+    <path d="M40 460 H760"/>
+  </g>
+  <g transform="translate(260 140)">
+    <circle cx="60" cy="60" r="44" fill="#F2C18A"/>
+    <path d="M16 50 a44 44 0 0 1 88 0 V40 a44 44 0 0 0 -88 0 Z" fill="#0A0A0A"/>
+    <rect x="36" y="40" width="48" height="14" rx="3" fill="#0B6FB8"/>
+    <rect x="44" y="38" width="32" height="6" fill="#fff"/>
+    <rect x="20" y="120" width="80" height="120" rx="6" fill="#0B6FB8"/>
+    <rect x="0" y="140" width="120" height="100" rx="6" fill="#0B6FB8"/>
+    <rect x="40" y="135" width="40" height="20" rx="2" fill="#7AB8E8"/>
+    <rect x="0" y="240" width="120" height="14" rx="3" fill="#0A0A0A"/>
+    <rect x="22" y="254" width="14" height="40" fill="#0A0A0A"/>
+    <rect x="84" y="254" width="14" height="40" fill="#0A0A0A"/>
+  </g>
+  <g transform="translate(450 220)">
+    <rect width="180" height="130" rx="8" fill="#0A0A0A"/>
+    <rect x="14" y="14" width="152" height="80" rx="4" fill="#7AB8E8"/>
+    <rect x="40" y="0" width="100" height="14" rx="3" fill="#0A0A0A"/>
+    <rect x="60" y="-10" width="60" height="14" rx="6" fill="#0A0A0A"/>
+    <g fill="#0B6FB8">
+      <rect x="30" y="40" width="40" height="6" rx="2"/>
+      <rect x="30" y="56" width="60" height="6" rx="2"/>
+      <rect x="30" y="72" width="50" height="6" rx="2"/>
+      <rect x="100" y="40" width="44" height="40" rx="3" fill="#0A0A0A"/>
+    </g>
+    <g transform="translate(20 110)" fill="#0A0A0A">
+      <circle cx="0" cy="6" r="6"/>
+      <rect x="14" y="3" width="40" height="6" rx="2"/>
+      <circle cx="74" cy="6" r="6"/>
+      <rect x="88" y="3" width="40" height="6" rx="2"/>
+    </g>
+  </g>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5C5C5C" letter-spacing="3">PLACEHOLDER · OUR TEAM</text>
+</svg>

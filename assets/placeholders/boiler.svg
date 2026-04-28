@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t-boiler">
+  <title id="t-boiler">Placeholder illustration: wall-mounted boiler</title>
+  <defs>
+    <linearGradient id="bg-boiler" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F5F2"/>
+      <stop offset="1" stop-color="#E4ECF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-boiler)"/>
+  <g stroke="#C8D4E0" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M40 90 H180 a20 20 0 0 1 20 20 V220"/>
+    <path d="M760 90 H620 a20 20 0 0 0 -20 20 V300"/>
+    <path d="M40 460 H760"/>
+  </g>
+  <g transform="translate(280 110)">
+    <rect width="240" height="280" rx="10" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="3"/>
+    <rect x="20" y="24" width="200" height="44" rx="4" fill="#0A0A0A"/>
+    <text x="120" y="54" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="18" letter-spacing="3" fill="#fff">BOILER</text>
+    <circle cx="80" cy="125" r="22" fill="#0B6FB8"/>
+    <circle cx="160" cy="125" r="22" fill="none" stroke="#0A0A0A" stroke-width="3"/>
+    <text x="80" y="131" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#fff">°C</text>
+    <rect x="40" y="170" width="160" height="70" rx="6" fill="#F5F5F2" stroke="#0A0A0A" stroke-width="2"/>
+    <path d="M120 188 c-8 10-14 22-14 32 a14 14 0 0 0 28 0 c0-10-6-22-14-32z" fill="#0B6FB8"/>
+    <rect x="70" y="280" width="8" height="50" fill="#0A0A0A"/>
+    <rect x="162" y="280" width="8" height="50" fill="#0A0A0A"/>
+  </g>
+  <text x="400" y="445" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5C5C5C" letter-spacing="3">PLACEHOLDER · BOILER INSTALLATION</text>
+</svg>

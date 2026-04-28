@@ -728,6 +728,44 @@ a.card:hover {
   color: #888884;
 }
 
+/* Media frames (placeholder/feature images) */
+.media-frame {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  margin: 0 0 32px;
+  aspect-ratio: 16 / 10;
+}
+.media-frame img,
+.media-frame svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.media-frame.dark { background: var(--ink); border-color: #1f1f1f; }
+.media-wide { aspect-ratio: 16 / 9; }
+.media-square { aspect-ratio: 1 / 1; }
+
+.hero-split .container {
+  display: grid;
+  gap: 48px;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .hero-split .container {
+    grid-template-columns: 1.1fr 1fr;
+    gap: 64px;
+  }
+}
+.hero-split .media-frame {
+  margin: 0;
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
 /* Reveal animations */
 .reveal {
   opacity: 0;
