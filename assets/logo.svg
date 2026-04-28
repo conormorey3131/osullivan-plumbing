@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="O'Sullivan Plumbing">
+  <rect width="240" height="240" fill="#FFFFFF"/>
+  <g fill="#0A0A0A">
+    <path d="M120 40c-4 8-14 22-14 32a14 14 0 0 0 28 0c0-10-10-24-14-32z"/>
+    <rect x="92" y="98" width="56" height="14" rx="3"/>
+    <rect x="114" y="112" width="12" height="60"/>
+    <rect x="96" y="172" width="48" height="14" rx="3"/>
+    <circle cx="78" cy="105" r="10"/>
+    <circle cx="162" cy="105" r="10"/>
+  </g>
+  <text x="120" y="212" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="22" fill="#0A0A0A" letter-spacing="2">O'SULLIVAN</text>
+  <text x="120" y="232" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="700" font-size="14" fill="#0A0A0A" letter-spacing="6">PLUMBING</text>
+</svg>
